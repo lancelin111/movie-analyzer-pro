@@ -1,0 +1,34 @@
+# Movie Analyzer Pro 依赖列表
+
+# 核心依赖
+numpy>=1.20.0
+opencv-python>=4.5.0
+Pillow>=8.0.0
+
+# 视频处理
+moviepy>=1.0.3
+ffmpeg-python>=0.2.0
+
+# 字幕和语音
+openai-whisper>=20230314  # 语音识别
+pytesseract>=0.3.8        # OCR识别
+pysrt>=1.1.2              # SRT字幕处理
+
+# 翻译（可选）
+googletrans==4.0.0-rc1    # Google翻译
+
+# 语音合成（可选）
+edge-tts>=6.0.0           # 微软TTS
+
+# 机器学习（可选）
+scikit-learn>=1.0.0       # 用于颜色聚类等
+
+# 工具库
+tqdm>=4.60.0              # 进度条
+click>=8.0.0              # 命令行接口
+pyyaml>=5.4.0             # 配置文件
+
+# 开发依赖（可选）
+# pytest>=6.0.0
+# black>=21.0.0
+# flake8>=3.9.0
